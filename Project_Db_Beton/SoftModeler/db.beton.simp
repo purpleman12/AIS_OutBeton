@@ -1,0 +1,846 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.30" multi-file="no" uid="simp5d203292dd7d46e3b8ca7bad3ca46504" creation-date="04/11/2024 14:14:16">
+  <meta>
+    <name>db.beton</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="4">
+    <entity-names />
+    <entity-ids>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>14</value>
+      </counter>
+      <counter>
+        <item-type type-id="erd-relationship" type="Relationship" />
+        <value>11</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.EntityRelationshipDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-2358c28dac1f4019b2d5f93850183faf" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-70610727429447a582eafc3f531fe493" name="" order-index="-1" />
+  <types default="MSSQL">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+      <type-set file="MsSqlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="pd63eae3f03504ae4b10c0a56f6ee49ae_583725857" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>04/11/2024 14:14:17</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="entity-relationship" id="pc37b24a3ec094fe7908f73ad2bd798f5_253579686" name="EntityRelationshipDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-225,-125">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="vertical-linear" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/11/2024 14:14:55</creation-date>
+          <change-date>04/11/2024 14:35:20</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <tagged-values>
+          <tagged-value id="tvd59d6ded623c4030a5b1b7002360b319" name="ConnectionString" type="text" multiple="false" hidden="false" value="Server=localhost;port=3306;username=Developer;password=&lt;*****&gt;;Database=db.beton" />
+        </tagged-values>
+        <abstract-items>
+          <item id="d94fee7a951a49a38da55b04c761ac01" cid="REL005" type="erd-relationship" creator="" creation-date="04/11/2024 14:30:25" from="440523d7d6064c95a9e695c477c90bd3" to="fffc5382be8c4f36b5fcedee1d3c8884">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="*">
+              <attribute-pairs />
+            </erd-relation>
+          </item>
+          <item id="e31ae3c61dd745fd9d8d53d4f4a4c10d" cid="REL006" type="erd-relationship" creator="" creation-date="04/11/2024 14:31:44" from="825008b1b48649edb1c3f57e4b23cfd9" to="74f465f4e11145ac9a612326e61664fc">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="*">
+              <attribute-pairs />
+            </erd-relation>
+          </item>
+          <item id="29ef3a0dbe414c34a33a0306b1f0c77b" cid="REL001" type="erd-relationship" creator="" creation-date="04/11/2024 14:16:24" from="e578136ec60c4e839e4827aaf577c50c" to="74f465f4e11145ac9a612326e61664fc">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="*">
+              <attribute-pairs />
+            </erd-relation>
+          </item>
+          <item id="ded142aceb824d2c89f386c68f613a0a" cid="REL008" type="erd-relationship" creator="" creation-date="04/11/2024 14:33:54" from="4dc7cbc5b86c4385a5a5b1da1fa1399d" to="35724740843641ce809fcceda8a0d754">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="*">
+              <attribute-pairs />
+            </erd-relation>
+          </item>
+          <item id="9310d4d0ee884b1db2a7e0b1a127a7a3" cid="REL007" type="erd-relationship" creator="" creation-date="04/11/2024 14:32:44" from="4dc7cbc5b86c4385a5a5b1da1fa1399d" to="74f465f4e11145ac9a612326e61664fc">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="*">
+              <attribute-pairs />
+            </erd-relation>
+          </item>
+          <item id="3ee3bff6926c41c8abc2c7e90facbf6c" cid="REL010" type="erd-relationship" creator="" creation-date="04/11/2024 14:35:20" from="929eb32b9d5e4b36a11d6faa4460745b" to="53a29acdfb6b4cca87323622fe3306ee">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="*">
+              <attribute-pairs />
+            </erd-relation>
+          </item>
+          <item id="5f9649b6efd6483094527eddd0f7fc24" cid="REL002" type="erd-relationship" creator="" creation-date="04/11/2024 14:24:53" from="74f465f4e11145ac9a612326e61664fc" to="edfda95b5b7c4cbea54ca4ba3e1b13c3">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="*">
+              <attribute-pairs />
+            </erd-relation>
+          </item>
+          <item id="49c64fb77da94fb7a7c7125540cd3e4c" cid="REL003" type="erd-relationship" creator="" creation-date="04/11/2024 14:28:31" from="3661f8be6b4845ad96d051705eab1d19" to="74f465f4e11145ac9a612326e61664fc">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="*">
+              <attribute-pairs />
+            </erd-relation>
+          </item>
+          <item id="086dab1bdcfe4aa8ae38f534fd3d047e" cid="REL009" type="erd-relationship" creator="" creation-date="04/11/2024 14:34:26" from="53a29acdfb6b4cca87323622fe3306ee" to="35724740843641ce809fcceda8a0d754">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="*">
+              <attribute-pairs />
+            </erd-relation>
+          </item>
+          <item id="29777e2eda214d48ada5a224622a70d6" cid="REL004" type="erd-relationship" creator="" creation-date="04/11/2024 14:29:27" from="fffc5382be8c4f36b5fcedee1d3c8884" to="74f465f4e11145ac9a612326e61664fc">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="*">
+              <attribute-pairs />
+            </erd-relation>
+          </item>
+        </abstract-items>
+        <layer id="14ea6a5098e244fb93015c73e72ee189" name="Default" visible="true" enabled="true" locked="false">
+          <item id="74f465f4e11145ac9a612326e61664fc" iid="3c5a420114b34247933fbdcd18bda972" creation-date="04/11/2024 14:14:55" order-index="0" type="entity">
+            <layout ax="504" ay="246" awidth="255" aheight="230" x="504" y="246" width="255" height="230" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="440523d7d6064c95a9e695c477c90bd3" iid="23221e3a06f44b628210300ac97bb913" creation-date="04/11/2024 14:14:55" order-index="1" type="entity">
+            <layout ax="-95" ay="-155" awidth="242" aheight="256" x="-95" y="-155" width="242" height="256" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="fffc5382be8c4f36b5fcedee1d3c8884" iid="3f58d4acee23414cbdad2a84702348c0" creation-date="04/11/2024 14:14:55" order-index="2" type="entity">
+            <layout ax="175" ay="271" awidth="255" aheight="180" x="175" y="271" width="255" height="180" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="edfda95b5b7c4cbea54ca4ba3e1b13c3" iid="67d1702af4914538a56d3645eac214cd" creation-date="04/11/2024 14:14:55" order-index="3" type="entity">
+            <layout ax="895" ay="-50.5" awidth="211" aheight="123" x="895" y="-50.5" width="211" height="123" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="3661f8be6b4845ad96d051705eab1d19" iid="98353bafacbc4eaabffdd19d87c71dc5" creation-date="04/11/2024 14:14:55" order-index="4" type="entity">
+            <layout ax="198.5" ay="-49" awidth="242" aheight="256" x="198.5" y="-49" width="242" height="256" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="929eb32b9d5e4b36a11d6faa4460745b" iid="eed6c1d075d24a7f8bd203ba353d0c22" creation-date="04/11/2024 14:14:55" order-index="5" type="entity">
+            <layout ax="900.5" ay="112" awidth="200" aheight="123" x="900.5" y="112" width="200" height="123" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="e578136ec60c4e839e4827aaf577c50c" iid="3b4d0874a9f24dd9a3d20dc30cad2b3e" creation-date="04/11/2024 14:14:55" order-index="6" type="entity">
+            <layout ax="920" ay="265" awidth="217" aheight="142" x="920" y="265" width="217" height="142" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="53a29acdfb6b4cca87323622fe3306ee" iid="ffb6bc8c571942d28584196663bbb9d3" creation-date="04/11/2024 14:14:55" order-index="7" type="entity">
+            <layout ax="1137.5" ay="-60" awidth="197" aheight="142" x="1137.5" y="-60" width="197" height="142" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="35724740843641ce809fcceda8a0d754" iid="087d95b7760d4f70905a8050e7c7e06f" creation-date="04/11/2024 14:14:55" order-index="8" type="entity">
+            <layout ax="1149" ay="515" awidth="212" aheight="142" x="1149" y="515" width="212" height="142" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="825008b1b48649edb1c3f57e4b23cfd9" iid="7ddd783b0eb24221bccbb57aff569a73" creation-date="04/11/2024 14:14:55" order-index="9" type="entity">
+            <layout ax="234.5" ay="515" awidth="206" aheight="237" x="234.5" y="515" width="206" height="237" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="4dc7cbc5b86c4385a5a5b1da1fa1399d" iid="212ee13411a14175977cd24f7ddcefb4" creation-date="04/11/2024 14:14:55" order-index="10" type="entity">
+            <layout ax="866" ay="534" awidth="212" aheight="104" x="866" y="534" width="212" height="104" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="29ef3a0dbe414c34a33a0306b1f0c77b" iid="f5a5a398bc4f45af96e99969004be4af" creation-date="04/11/2024 14:16:24" order-index="11" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="920" y1="324" x2="759" y2="327" start-border-pos="0.8961267620325089" end-border-pos="0.33830275386571884" start-local-pos="59" end-local-pos="77" name-position="0,20">
+              <points>
+                <point x="920" y="324" />
+                <point x="836" y="324" />
+                <point x="759" y="327" />
+              </points>
+            </layout>
+            <relation from="e578136ec60c4e839e4827aaf577c50c" from-iid="3b4d0874a9f24dd9a3d20dc30cad2b3e" to="74f465f4e11145ac9a612326e61664fc" to-iid="3c5a420114b34247933fbdcd18bda972" />
+          </item>
+          <item id="5f9649b6efd6483094527eddd0f7fc24" iid="40d8aa0ce1ec4b1990ca492394e732e8" creation-date="04/11/2024 14:24:53" order-index="12" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="759" y1="288" x2="895" y2="11" start-border-pos="0.2958715596330275" end-border-pos="0.875" start-local-pos="40" end-local-pos="61.5" name-position="0,20">
+              <points>
+                <point x="759" y="288" />
+                <point x="811" y="288" />
+                <point x="806" y="12" />
+                <point x="895" y="11" />
+              </points>
+            </layout>
+            <relation from="74f465f4e11145ac9a612326e61664fc" from-iid="3c5a420114b34247933fbdcd18bda972" to="edfda95b5b7c4cbea54ca4ba3e1b13c3" to-iid="67d1702af4914538a56d3645eac214cd" />
+          </item>
+          <item id="49c64fb77da94fb7a7c7125540cd3e4c" iid="ea253dab000b4e47a3565915d95c5845" creation-date="04/11/2024 14:28:31" order-index="13" type="relation">
+            <layout start-role-position="25.000002,15.000001" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="440" y1="9" x2="504" y2="302" start-border-pos="0.306640625" end-border-pos="0.9391304347826087" start-local-pos="58" name-position="0,20">
+              <points>
+                <point x="440" y="9" />
+                <point x="477" y="9" />
+                <point x="477" y="302" />
+                <point x="504" y="302" />
+              </points>
+            </layout>
+            <relation from="3661f8be6b4845ad96d051705eab1d19" from-iid="98353bafacbc4eaabffdd19d87c71dc5" to="74f465f4e11145ac9a612326e61664fc" to-iid="3c5a420114b34247933fbdcd18bda972" />
+          </item>
+          <item id="29777e2eda214d48ada5a224622a70d6" iid="a78402d5e73c49e7ae31bad92018a79e" creation-date="04/11/2024 14:29:27" order-index="14" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="430" y1="361" x2="504" y2="361" start-border-pos="0.375" end-border-pos="0.875" end-local-pos="115" name-position="0,20">
+              <points>
+                <point x="430" y="361" />
+                <point x="504" y="361" />
+              </points>
+            </layout>
+            <relation from="fffc5382be8c4f36b5fcedee1d3c8884" from-iid="3f58d4acee23414cbdad2a84702348c0" to="74f465f4e11145ac9a612326e61664fc" to-iid="3c5a420114b34247933fbdcd18bda972" />
+          </item>
+          <item id="d94fee7a951a49a38da55b04c761ac01" iid="80525576a04842c2bb2ff776392f1258" creation-date="04/11/2024 14:30:25" order-index="15" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="147" y1="-27" x2="175" y2="332" start-border-pos="0.375" end-border-pos="0.9152777791023254" end-local-pos="61" name-position="0,20">
+              <points>
+                <point x="147" y="-27" />
+                <point x="181" y="-27" />
+                <point x="141" y="331" />
+                <point x="175" y="332" />
+              </points>
+            </layout>
+            <relation from="440523d7d6064c95a9e695c477c90bd3" from-iid="23221e3a06f44b628210300ac97bb913" to="fffc5382be8c4f36b5fcedee1d3c8884" to-iid="3f58d4acee23414cbdad2a84702348c0" />
+          </item>
+          <item id="e31ae3c61dd745fd9d8d53d4f4a4c10d" iid="c9ed5fcc07f24f35accc84c0a835f3c6" creation-date="04/11/2024 14:31:44" order-index="16" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="440" y1="708" x2="504" y2="397" start-border-pos="0.45358649789029537" end-border-pos="0.8358695652173913" start-local-pos="193" end-local-pos="151" name-position="0,20">
+              <points>
+                <point x="440" y="708" />
+                <point x="474" y="706" />
+                <point x="460" y="398" />
+                <point x="504" y="397" />
+              </points>
+            </layout>
+            <relation from="825008b1b48649edb1c3f57e4b23cfd9" from-iid="7ddd783b0eb24221bccbb57aff569a73" to="74f465f4e11145ac9a612326e61664fc" to-iid="3c5a420114b34247933fbdcd18bda972" />
+          </item>
+          <item id="9310d4d0ee884b1db2a7e0b1a127a7a3" iid="db8b45c2848549d1afffd349d4040ab4" creation-date="04/11/2024 14:32:44" order-index="17" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="866" y1="597" x2="759" y2="348" start-border-pos="0.8485576957464218" end-border-pos="0.36086956411600113" start-local-pos="63" end-local-pos="102" name-position="0,20">
+              <points>
+                <point x="866" y="597" />
+                <point x="800" y="598" />
+                <point x="797" y="348" />
+                <point x="759" y="348" />
+              </points>
+            </layout>
+            <relation from="4dc7cbc5b86c4385a5a5b1da1fa1399d" from-iid="212ee13411a14175977cd24f7ddcefb4" to="74f465f4e11145ac9a612326e61664fc" to-iid="3c5a420114b34247933fbdcd18bda972" />
+          </item>
+          <item id="ded142aceb824d2c89f386c68f613a0a" iid="fff6f4b4494b4dd09c124472d9a550f7" creation-date="04/11/2024 14:33:54" order-index="18" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1078" y1="586" x2="1149" y2="576" start-border-pos="0.375" end-border-pos="0.8926056325435638" end-local-pos="61" name-position="0,20">
+              <points>
+                <point x="1078" y="586" />
+                <point x="1149" y="576" />
+              </points>
+            </layout>
+            <relation from="4dc7cbc5b86c4385a5a5b1da1fa1399d" from-iid="212ee13411a14175977cd24f7ddcefb4" to="35724740843641ce809fcceda8a0d754" to-iid="087d95b7760d4f70905a8050e7c7e06f" />
+          </item>
+          <item id="086dab1bdcfe4aa8ae38f534fd3d047e" iid="f780bec6aa75464cb062ce7a13966b59" creation-date="04/11/2024 14:34:26" order-index="19" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1334" y1="11" x2="1361" y2="586" start-border-pos="0.375" end-border-pos="0.375" end-local-pos="71" name-position="0,20">
+              <points>
+                <point x="1334" y="11" />
+                <point x="1390" y="11" />
+                <point x="1400" y="586" />
+                <point x="1361" y="586" />
+              </points>
+            </layout>
+            <relation from="53a29acdfb6b4cca87323622fe3306ee" from-iid="ffb6bc8c571942d28584196663bbb9d3" to="35724740843641ce809fcceda8a0d754" to-iid="087d95b7760d4f70905a8050e7c7e06f" />
+          </item>
+          <item id="3ee3bff6926c41c8abc2c7e90facbf6c" iid="28110b8dc9bf447baf9889f58ec69438" creation-date="04/11/2024 14:35:20" order-index="20" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1100" y1="173" x2="1138" y2="21" start-border-pos="0.37398373983739835" end-border-pos="0.8573943661971831" end-local-pos="81" name-position="0,20">
+              <points>
+                <point x="1100" y="173" />
+                <point x="1124" y="172" />
+                <point x="1116" y="16" />
+                <point x="1138" y="21" />
+              </points>
+            </layout>
+            <relation from="929eb32b9d5e4b36a11d6faa4460745b" from-iid="eed6c1d075d24a7f8bd203ba353d0c22" to="53a29acdfb6b4cca87323622fe3306ee" to-iid="ffb6bc8c571942d28584196663bbb9d3" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+    <model id="pf195ba5aaeab42458ffa26fcc4a2a4bf_841376673" name="Databases" namespace="" order-index="2">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>04/11/2024 14:14:55</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <tagged-values>
+        <tagged-value id="tv808ef3c12a7740079be99caff946259b" name="SystemFolder" type="text" multiple="false" hidden="false" value="Databases" />
+      </tagged-values>
+      <abstract-items />
+      <sub-models>
+        <model id="p4016587e08b64c8a9875d23701b9efc7_845160219" name="db.beton" namespace="" order-index="1">
+          <meta>
+            <authors>
+              <author> </author>
+            </authors>
+            <description />
+            <creation-date>04/11/2024 14:14:55</creation-date>
+            <change-date>01/01/0001 00:00:00</change-date>
+            <revision-count>0</revision-count>
+            <version />
+          </meta>
+          <tagged-values>
+            <tagged-value id="tv2772be41b49542de845d8f66030ea9f5" name="DbRepositoryConnectionString" type="text" multiple="false" hidden="false" value="Server=localhost;port=3306;username=Developer;password=&lt;*****&gt;;Database=db.beton" />
+            <tagged-value id="tvf051cd37015542e5a5edad65961def7a" name="DbRepositoryConnectionStringType" type="text" multiple="false" hidden="false" value="MySql" />
+            <tagged-value id="tv085c2b8b76d045c38edc97fc11c8cd9e" name="SystemFolder" type="text" multiple="false" hidden="false" value="Databases" />
+          </tagged-values>
+          <abstract-items />
+          <sub-models>
+            <model id="p53abbf1c2e754316a523691ff152930e_746772397" name="db.beton" namespace="db.beton" order-index="1">
+              <meta>
+                <authors>
+                  <author> </author>
+                </authors>
+                <description />
+                <creation-date>04/11/2024 14:14:55</creation-date>
+                <change-date>01/01/0001 00:00:00</change-date>
+                <revision-count>0</revision-count>
+                <version />
+              </meta>
+              <tagged-values>
+                <tagged-value id="tv988a907cca2f43269d4f9e78297d6387" name="TableSchema" type="text" multiple="false" hidden="false" value="db.beton" />
+                <tagged-value id="tvc57158bb158e4e6ba94949677894e566" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.application" />
+                <tagged-value id="tv764ab328004041f0a03c605157975e44" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.autopark" />
+                <tagged-value id="tv709ac08bed5f427ab3bd2416a9ed416d" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.autos" />
+                <tagged-value id="tva0fcbca998234fc887ddfcdb1436bb3e" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.content" />
+                <tagged-value id="tv21e15921ae0447c99e605273e3e555f2" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.customers" />
+                <tagged-value id="tve34827bf2cd74432b6ee48c5441305d1" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.edval" />
+                <tagged-value id="tv910f12f2d89a4765b6a617268da13bfb" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.manager" />
+                <tagged-value id="tv9e02eb661abc4d01ab90ac1875d0bc8f" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.products" />
+                <tagged-value id="tv7b2010f17e964eb4b5bbc61462aa894b" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.releasee" />
+                <tagged-value id="tv09ee6382573341a59d971c940a89caba" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.requisites" />
+                <tagged-value id="tv61388f8b9a6647eb9cb8f3f8fc217280" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.subdivision" />
+              </tagged-values>
+              <abstract-items>
+                <item id="3661f8be6b4845ad96d051705eab1d19" cid="ENT005" type="erd-entity" name="customers" change-tracking-state="added" creation-date="04/11/2024 14:14:55">
+                  <tagged-values>
+                    <tagged-value id="tv42e350a043dd488c91e7650d78f3562b" name="TableName" type="text" multiple="false" hidden="false" value="customers" />
+                    <tagged-value id="tv8e3230840a7d4fbdab58ed64338b43ff" name="TableSchema" type="text" multiple="false" hidden="false" value="db.beton" />
+                    <tagged-value id="tvc20c335c2b1044828c42d4740c21efa1" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.customers" />
+                  </tagged-values>
+                  <entity description="" />
+                  <attributes>
+                    <attribute uid="ad83a7cadb2774208a509bcd816f8a942106" cid="EA032" name="ID" type="int" type-id="MsSql.int" primary-key="true" nullable="false" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv5cd46fd4b6204175850d45c7cccb463e" name="ColumnName" type="text" multiple="false" hidden="false" value="ID" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a3a66c83a77ff4c3c9d8dbe787d7c5672106" cid="EA033" name="Name" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv5b36a1d2003549069a1b92bf53652d1e" name="ColumnName" type="text" multiple="false" hidden="false" value="Name" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a29ed8b12340d4dcfa1bfa2ef4a8af41c106" cid="EA034" name="INN" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv4095630ed7434cbf84db4c729d0a7966" name="ColumnName" type="text" multiple="false" hidden="false" value="INN" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a2b5d3b17839944d787c49bd8cede97d7106" cid="EA035" name="KPP" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvceece2a03bdb4ce09cac5557d8dd53ba" name="ColumnName" type="text" multiple="false" hidden="false" value="KPP" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a573ff654ce444a5bb97efdf2765ca3b1106" cid="EA036" name="Bank" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tve74dab5010b640d08793241eeaf1a338" name="ColumnName" type="text" multiple="false" hidden="false" value="Bank" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="af1f0919cdbe744b7a53107623e9c2a2f106" cid="EA037" name="BIK" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv6ebdc9f35b6a4cbbab7af14cbb61d79a" name="ColumnName" type="text" multiple="false" hidden="false" value="BIK" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="ab976944b3f5744ab98e63a4c219fbe28106" cid="EA038" name="KS" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv6db86f9a797e47f5b86fcbda82eaac00" name="ColumnName" type="text" multiple="false" hidden="false" value="KS" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="ad8f959a3993c45068c8ac2f87c73ceb8106" cid="EA039" name="RS" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv12b94730505445b384a73560268abd18" name="ColumnName" type="text" multiple="false" hidden="false" value="RS" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a1c9bf30bec644bb38c76ab726faf49ca106" cid="EA040" name="Supervisor" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv05d53d1c8fe842b4babaaba09462dd63" name="ColumnName" type="text" multiple="false" hidden="false" value="Supervisor" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="ac2305c66e90044db9dd5d0fb907822a4106" cid="EA041" name="ChiefAccountant" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv2eb190e8039947c88a9ffe904e47af75" name="ColumnName" type="text" multiple="false" hidden="false" value="ChiefAccountant" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a21a5050af79e482199ebbd128ea960bb106" cid="EA042" name="Address" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvf023cfa1351a476fb1cb62cca5addd26" name="ColumnName" type="text" multiple="false" hidden="false" value="Address" />
+                      </tagged-values>
+                    </attribute>
+                  </attributes>
+                </item>
+                <item id="74f465f4e11145ac9a612326e61664fc" cid="ENT001" type="erd-entity" name="application" change-tracking-state="added" creation-date="04/11/2024 14:14:55">
+                  <tagged-values>
+                    <tagged-value id="tv361786827d4f4ed2a8a034f350a48dce" name="TableName" type="text" multiple="false" hidden="false" value="application" />
+                    <tagged-value id="tv88b55164a310498aae055b879e28b7df" name="TableSchema" type="text" multiple="false" hidden="false" value="db.beton" />
+                    <tagged-value id="tv268cc61fba6d4c4b959035b903aa6aca" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.application" />
+                  </tagged-values>
+                  <entity description="" />
+                  <attributes>
+                    <attribute uid="aa11ef861a21647d1b501e91bd6352c78100" cid="EA001" name="Application" type="int" type-id="MsSql.int" primary-key="true" nullable="false" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvbd093e29779a45dab45c3fd32b65a141" name="ColumnName" type="text" multiple="false" hidden="false" value="Application" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="ae91af8d072c64ab58d2d551fc86d9e46101" cid="EA002" name="Customer" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv6b77ef4a29de4939935a12d9a3fa5266" name="ColumnName" type="text" multiple="false" hidden="false" value="Customer" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a7ffcefc543d947ffbc3d87f35397bf81101" cid="EA003" name="Manager" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv9531017cf7b640ee948972bbbcbd2248" name="ColumnName" type="text" multiple="false" hidden="false" value="Manager" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a0b85c8297bfd4e1cb542c63e0457cc12102" cid="EA004" name="Subdivision" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvf174c024761a4f60b63e0f2c7e77246d" name="ColumnName" type="text" multiple="false" hidden="false" value="Subdivision" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="ade9b358b8acf4036b56348c33197bc41102" cid="EA005" name="Auto" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv759056b92293446aaa9b4b1fe48ddd6d" name="ColumnName" type="text" multiple="false" hidden="false" value="Auto" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="acc4558e38c9b433994e853933a635f80102" cid="EA006" name="DateTime" type="varchar" type-id="MsSql.varchar" type-size="50" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv906c44a2ffc946058ee88236e371f652" name="ColumnName" type="text" multiple="false" hidden="false" value="DateTime" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="aac50b5e7c88e4566b6ed31ee3f81c499102" cid="EA007" name="PointOfDeparture" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvfcfc2dd8722744ba9b694817e23377ce" name="ColumnName" type="text" multiple="false" hidden="false" value="PointOfDeparture" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a2720d585403248b28942c2ab7ec3b7d6102" cid="EA008" name="Destination" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv765cd84a9ee543f6928124a1d80e6e87" name="ColumnName" type="text" multiple="false" hidden="false" value="Destination" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a1ebde5e77a3e42a5b3f85f6ca45eb8da102" cid="EA009" name="Distance" type="double" type-id="double" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv440ca6dd6f504fe7a1f0efb6f4af1b8b" name="ColumnName" type="text" multiple="false" hidden="false" value="Distance" />
+                      </tagged-values>
+                    </attribute>
+                  </attributes>
+                </item>
+                <item id="929eb32b9d5e4b36a11d6faa4460745b" cid="ENT006" type="erd-entity" name="edval" change-tracking-state="added" creation-date="04/11/2024 14:14:55">
+                  <tagged-values>
+                    <tagged-value id="tvfb5980a02b384744bbd4910891868ec0" name="TableName" type="text" multiple="false" hidden="false" value="edval" />
+                    <tagged-value id="tvd2e9712fe1ee4822bcf35641dcd08d8f" name="TableSchema" type="text" multiple="false" hidden="false" value="db.beton" />
+                    <tagged-value id="tv47f84b7a9a8248ec82b2fb20892ec747" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.edval" />
+                  </tagged-values>
+                  <entity description="" />
+                  <attributes>
+                    <attribute uid="a125b82d6710c44e38c74c67a503a4502106" cid="EA043" name="ID" type="int" type-id="MsSql.int" primary-key="true" nullable="false" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv6f883f11708947b69dae706e4da75b77" name="ColumnName" type="text" multiple="false" hidden="false" value="ID" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="aed213c8ea5704e00860fd0a9846291aa106" cid="EA044" name="KOD" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv120da317f5864f65bb562a52546839b9" name="ColumnName" type="text" multiple="false" hidden="false" value="KOD" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a2876476b3e8a49e0a62c2e0af95f8e79106" cid="EA045" name="EdVal" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvc8969c3d60284c41bd916438048f21e6" name="ColumnName" type="text" multiple="false" hidden="false" value="EdVal" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a2ce0c1aca7fe4a6ebca3e7fcc46de927106" cid="EA046" name="FullName" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv50e2890a0a3c4657bbfb007b22a299c7" name="ColumnName" type="text" multiple="false" hidden="false" value="FullName" />
+                      </tagged-values>
+                    </attribute>
+                  </attributes>
+                </item>
+                <item id="35724740843641ce809fcceda8a0d754" cid="ENT009" type="erd-entity" name="releasee" change-tracking-state="added" creation-date="04/11/2024 14:14:55">
+                  <tagged-values>
+                    <tagged-value id="tv3bc8eeca64ee4d8996ebf66229b626a2" name="TableName" type="text" multiple="false" hidden="false" value="releasee" />
+                    <tagged-value id="tv768cb0e1880d44de83493e9dad59bf04" name="TableSchema" type="text" multiple="false" hidden="false" value="db.beton" />
+                    <tagged-value id="tv79026235bb8544e1a4576383aa0eb82f" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.releasee" />
+                  </tagged-values>
+                  <entity description="" />
+                  <attributes>
+                    <attribute uid="abae4540d5bef4c508e8ee945c71cd241108" cid="EA057" name="ID" type="int" type-id="MsSql.int" primary-key="true" nullable="false" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tveabb806dc4234d2a997e6117236f6704" name="ColumnName" type="text" multiple="false" hidden="false" value="ID" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="af04a2c5b01ee4cfd87832ddd2b06ddd9108" cid="EA058" name="Subdivision" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv8563574947104fb3bb9449f8bb4d3e92" name="ColumnName" type="text" multiple="false" hidden="false" value="Subdivision" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a313c0c68e6f047c681d30ef32f0210e8108" cid="EA059" name="Products" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvbd821671df0f4a8aad94274d99865668" name="ColumnName" type="text" multiple="false" hidden="false" value="Products" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="ae4ae23088f954ff0b453766df7533d18108" cid="EA060" name="DateRelase" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvc71021f081764c2b89a9e0a88d1d9933" name="ColumnName" type="text" multiple="false" hidden="false" value="DateRelase" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="affb69e7b33884765bab86e11602220e1108" cid="EA061" name="Quantity" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv7d7aed3b017746788e0a08e43f680759" name="ColumnName" type="text" multiple="false" hidden="false" value="Quantity" />
+                      </tagged-values>
+                    </attribute>
+                  </attributes>
+                </item>
+                <item id="4dc7cbc5b86c4385a5a5b1da1fa1399d" cid="ENT011" type="erd-entity" name="subdivision" change-tracking-state="added" creation-date="04/11/2024 14:14:55">
+                  <tagged-values>
+                    <tagged-value id="tv329889ddb69c42dc8479eeb24b2bc2fd" name="TableName" type="text" multiple="false" hidden="false" value="subdivision" />
+                    <tagged-value id="tv6152bd39585c4a83a97373b71d5f6e3d" name="TableSchema" type="text" multiple="false" hidden="false" value="db.beton" />
+                    <tagged-value id="tv1b6e26d57d4e434d80fd09ca5b6cf0fc" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.subdivision" />
+                  </tagged-values>
+                  <entity description="" />
+                  <attributes>
+                    <attribute uid="a5ca5f86d936941ca8f3e5dacf68aafc3110" cid="EA072" name="ID" type="int" type-id="MsSql.int" primary-key="true" nullable="false" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv560e9cda1c724049b01fce4f52217a57" name="ColumnName" type="text" multiple="false" hidden="false" value="ID" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a4fa0eba3b0d9433cbb0a31c14e7533ae110" cid="EA073" name="Subdivision" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv1c294589ef1a4c3a8f7d8c5b6b9b0b6d" name="ColumnName" type="text" multiple="false" hidden="false" value="Subdivision" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="aa89a986b1ef14beca7f102bcdd30a97f110" cid="EA074" name="NoteInfo" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv441a219c261a4adc91db5893cb94a8bc" name="ColumnName" type="text" multiple="false" hidden="false" value="NoteInfo" />
+                      </tagged-values>
+                    </attribute>
+                  </attributes>
+                </item>
+                <item id="edfda95b5b7c4cbea54ca4ba3e1b13c3" cid="ENT004" type="erd-entity" name="content" change-tracking-state="added" creation-date="04/11/2024 14:14:55">
+                  <tagged-values>
+                    <tagged-value id="tvc170ffe348ea476989c0b70fa2544e7c" name="TableName" type="text" multiple="false" hidden="false" value="content" />
+                    <tagged-value id="tv54e3d7c31d894273a9714b6eaa9b2110" name="TableSchema" type="text" multiple="false" hidden="false" value="db.beton" />
+                    <tagged-value id="tv1d58234d19554eceac2db6d50a754a4d" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.content" />
+                  </tagged-values>
+                  <entity description="" />
+                  <attributes>
+                    <attribute uid="ae6362f380c0e4658b073fae7e58d5178105" cid="EA028" name="ID" type="int" type-id="MsSql.int" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv3e96d82478fd41e583830e50e1cdb68e" name="ColumnName" type="text" multiple="false" hidden="false" value="ID" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="ab38ae3ba50b149828a2e45cf7ed30c4f105" cid="EA029" name="Application" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv65146e358b844f1d8796f530c7be2d4b" name="ColumnName" type="text" multiple="false" hidden="false" value="Application" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a9b7cdd5e284448f7a32913608597c194105" cid="EA030" name="Products" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv2a75c04b8d31446388e7d3d9f1ceead8" name="ColumnName" type="text" multiple="false" hidden="false" value="Products" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a5e6bbd3d817a4265957446c8c6fcb887105" cid="EA031" name="Quantity" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tva256e6cf208f44b3bdfe0e0446b2b199" name="ColumnName" type="text" multiple="false" hidden="false" value="Quantity" />
+                      </tagged-values>
+                    </attribute>
+                  </attributes>
+                </item>
+                <item id="53a29acdfb6b4cca87323622fe3306ee" cid="ENT008" type="erd-entity" name="products" change-tracking-state="added" creation-date="04/11/2024 14:14:55">
+                  <tagged-values>
+                    <tagged-value id="tvac8654683f2c455eb38ad0fc8f112cfa" name="TableName" type="text" multiple="false" hidden="false" value="products" />
+                    <tagged-value id="tvcfd568c8a35f4de792807088434d950c" name="TableSchema" type="text" multiple="false" hidden="false" value="db.beton" />
+                    <tagged-value id="tvc11a074ca0f547858716069e311df4f8" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.products" />
+                  </tagged-values>
+                  <entity description="" />
+                  <attributes>
+                    <attribute uid="ab3f57f83fa06480f876f9835595de7e9108" cid="EA052" name="ID" type="int" type-id="MsSql.int" primary-key="true" nullable="false" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv011d083b23b44dc4942fe9a170ee190e" name="ColumnName" type="text" multiple="false" hidden="false" value="ID" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a3890362c7744429bbc985e9880b8d3bd108" cid="EA053" name="Name" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvc71f127b2e144c9cac69765534e9e591" name="ColumnName" type="text" multiple="false" hidden="false" value="Name" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a80cc9bf0cf264896aa53aab479a17b18108" cid="EA054" name="EdVal" type="varchar" type-id="MsSql.varchar" type-size="2" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv7a401c0e0f414372a921082c8bbac2e7" name="ColumnName" type="text" multiple="false" hidden="false" value="EdVal" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="aac196fdb7b8249b8b41fa55e46ea5373108" cid="EA055" name="Pay" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvf38b3061fc4a492599874b0ed6825afd" name="ColumnName" type="text" multiple="false" hidden="false" value="Pay" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="abaafd3ecce7b4e719979d9d0940c9d7c108" cid="EA056" name="NoteInfo" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvae6d32c08a764ed9930b967ac786a950" name="ColumnName" type="text" multiple="false" hidden="false" value="NoteInfo" />
+                      </tagged-values>
+                    </attribute>
+                  </attributes>
+                </item>
+                <item id="440523d7d6064c95a9e695c477c90bd3" cid="ENT002" type="erd-entity" name="autopark" change-tracking-state="added" creation-date="04/11/2024 14:14:55">
+                  <tagged-values>
+                    <tagged-value id="tv39804e91caa2465a9a39663f6dee606e" name="TableName" type="text" multiple="false" hidden="false" value="autopark" />
+                    <tagged-value id="tv335cf2d3f5ab4246ab932f59bcbc978b" name="TableSchema" type="text" multiple="false" hidden="false" value="db.beton" />
+                    <tagged-value id="tvdba3bd1eebdd4b6dbdaae79cc653744e" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.autopark" />
+                  </tagged-values>
+                  <entity description="" />
+                  <attributes>
+                    <attribute uid="aa4495ce15ec944d99439caf3c647ff8e103" cid="EA010" name="ID" type="int" type-id="MsSql.int" primary-key="true" nullable="false" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvdec9c526c059450c821b51e0ca2d9286" name="ColumnName" type="text" multiple="false" hidden="false" value="ID" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="abca3fd15f9c84284a59c0cd937d81c5b103" cid="EA011" name="Name_Parking" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv25c0a06c99e742ff9bf4937ae3cce571" name="ColumnName" type="text" multiple="false" hidden="false" value="Name_Parking" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a9a4c7411bde04fd8b8946c449553732a103" cid="EA012" name="INN" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv17eac9deea9f4468954c35dada16c401" name="ColumnName" type="text" multiple="false" hidden="false" value="INN" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a9670a82d6a31465299664609fa98fc5d103" cid="EA013" name="KPP" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv7b33cb3751534c08976b5f31f172127a" name="ColumnName" type="text" multiple="false" hidden="false" value="KPP" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="aa13719482fb44ffdbd150c50a6d51f8a103" cid="EA014" name="Bank" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv32e0c5f5b465466aa1acc66e02c58660" name="ColumnName" type="text" multiple="false" hidden="false" value="Bank" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="af8ab79608bab4501bc5dac0f02f81caa103" cid="EA015" name="BIK" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv0c7d142b817e4dc4b3fd43fb55d19b05" name="ColumnName" type="text" multiple="false" hidden="false" value="BIK" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="acef1f1e6948f465683ac6e133c93a594103" cid="EA016" name="KS" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv5791e112ee884d5298044c4a7f040a89" name="ColumnName" type="text" multiple="false" hidden="false" value="KS" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="ae2dce0751bdd4aca828a02a93c1cd9ca103" cid="EA017" name="RS" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvac2eb7ca52a24f97b5faf6bc8bb117e3" name="ColumnName" type="text" multiple="false" hidden="false" value="RS" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="aef583cff792d41f2b59e8d70482891a6103" cid="EA018" name="Supervisor" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvab1101e8e40f43de8d3b3e1c55633103" name="ColumnName" type="text" multiple="false" hidden="false" value="Supervisor" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a5aab4a1f3f294f619280023cba45a650104" cid="EA019" name="ChiefAccountant" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv88d2e33282e04eaf81712a1c91c4032e" name="ColumnName" type="text" multiple="false" hidden="false" value="ChiefAccountant" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="aaf25137d850f49a89605ae85af625b22104" cid="EA020" name="Address" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvd4e866b2f25c4029bf9a3e54e18c7509" name="ColumnName" type="text" multiple="false" hidden="false" value="Address" />
+                      </tagged-values>
+                    </attribute>
+                  </attributes>
+                </item>
+                <item id="825008b1b48649edb1c3f57e4b23cfd9" cid="ENT010" type="erd-entity" name="requisites" change-tracking-state="added" creation-date="04/11/2024 14:14:55">
+                  <tagged-values>
+                    <tagged-value id="tv54d9399c2e8e4f6a84c159d6bacdfe15" name="TableName" type="text" multiple="false" hidden="false" value="requisites" />
+                    <tagged-value id="tvcbcca7643ac3434b84e324acce78bf42" name="TableSchema" type="text" multiple="false" hidden="false" value="db.beton" />
+                    <tagged-value id="tvd21739dd6931426798e5127e682930e2" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.requisites" />
+                  </tagged-values>
+                  <entity description="" />
+                  <attributes>
+                    <attribute uid="a29a6b32449b64021a67a4cdb44626733109" cid="EA062" name="ID" type="int" type-id="MsSql.int" primary-key="true" nullable="false" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tva39972019bcf43d3b3ad1a3bba3541e9" name="ColumnName" type="text" multiple="false" hidden="false" value="ID" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a2d4576c30bdb48218b958d3da5ab8767109" cid="EA063" name="Name" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv1278ddff4142434b9aa83fd865e87a8c" name="ColumnName" type="text" multiple="false" hidden="false" value="Name" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a3afa506aa1394120af692e481923f1ae109" cid="EA064" name="INN" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv657f2ed31f7d48a88d01e92e47941b06" name="ColumnName" type="text" multiple="false" hidden="false" value="INN" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="ab275e28d2e4f4ca9849758061bea79b7109" cid="EA065" name="KPP" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv45b253d43c424c2a859fe6547320e354" name="ColumnName" type="text" multiple="false" hidden="false" value="KPP" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="aa8420a12179d4124aceee2ff290a357d109" cid="EA066" name="Bank" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv56df7093dc23444e9441e34c81d0fe5d" name="ColumnName" type="text" multiple="false" hidden="false" value="Bank" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a04a37553b8e145f58c7bfa9b6794899d109" cid="EA067" name="BIK" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvc4ba741cdf1043c59ccd03f4e8af1f00" name="ColumnName" type="text" multiple="false" hidden="false" value="BIK" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="aab4f80acda3a44f286f75d6835410e63109" cid="EA068" name="K/S" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv2741222677ef4979906395eba4fcb6fe" name="ColumnName" type="text" multiple="false" hidden="false" value="K/S" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a384ad2afa75444899fcf694dd8115012109" cid="EA069" name="R/S" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tva45e8eeec72542eea64bb8a1bbb11c0b" name="ColumnName" type="text" multiple="false" hidden="false" value="R/S" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a1c5162ef22cb4f1a863061810fcb7b30109" cid="EA070" name="Adress" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv9bd0b8cf9a9f44e9a2093d4d06951d40" name="ColumnName" type="text" multiple="false" hidden="false" value="Adress" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a2605fa15cf7e480cb0688a3c604f0eda109" cid="EA071" name="Supervisor" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv128c474c8c0d4a0a885b945d04093133" name="ColumnName" type="text" multiple="false" hidden="false" value="Supervisor" />
+                      </tagged-values>
+                    </attribute>
+                  </attributes>
+                </item>
+                <item id="fffc5382be8c4f36b5fcedee1d3c8884" cid="ENT003" type="erd-entity" name="autos" change-tracking-state="added" creation-date="04/11/2024 14:14:55">
+                  <tagged-values>
+                    <tagged-value id="tv50ea603432c54d5ebf547077f746013d" name="TableName" type="text" multiple="false" hidden="false" value="autos" />
+                    <tagged-value id="tv4cf07efe1f6d478a9af152402aa3fa63" name="TableSchema" type="text" multiple="false" hidden="false" value="db.beton" />
+                    <tagged-value id="tv5e97821d1b264c628c37b8de8d30f9de" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.autos" />
+                  </tagged-values>
+                  <entity description="" />
+                  <attributes>
+                    <attribute uid="aa76fe858e25446508a1ff50f17d5f385104" cid="EA021" name="ID" type="int" type-id="MsSql.int" primary-key="true" nullable="false" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tva285dd7d10d246b695b166d7ce23c0cf" name="ColumnName" type="text" multiple="false" hidden="false" value="ID" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a999b08c79a764fb89f8a6b3301ce42f3104" cid="EA022" name="AutoParking" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv7e9e334d5ccb4ac59eb2c18bdfad1881" name="ColumnName" type="text" multiple="false" hidden="false" value="AutoParking" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="accdaa6a3b3d54fc5adb7a277f182babe104" cid="EA023" name="Auto" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv6b734b947e0f4d83ada6a2db3714ca2b" name="ColumnName" type="text" multiple="false" hidden="false" value="Auto" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="ac6361957eb7b42589c0d4bd1cdf25243104" cid="EA024" name="RegNumber" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvb00f45f35fa74ca8bf93ac3878e2ed19" name="ColumnName" type="text" multiple="false" hidden="false" value="RegNumber" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a1c7f06a7ca3d4caba12ce2411f90ed33104" cid="EA025" name="ResponsiblePerson" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv8e68c4743aae404690c38d7538ba3946" name="ColumnName" type="text" multiple="false" hidden="false" value="ResponsiblePerson" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a0db515a623f74d008ec1bd6b9ff15b19104" cid="EA026" name="Mileage" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv6f37e1f5e2d3442d940f9dbfa490aff0" name="ColumnName" type="text" multiple="false" hidden="false" value="Mileage" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a1803c5dbe824422e90e47e74cd809b58104" cid="EA027" name="Note" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv9fedc77103fe46e496aa94fba58a80bf" name="ColumnName" type="text" multiple="false" hidden="false" value="Note" />
+                      </tagged-values>
+                    </attribute>
+                  </attributes>
+                </item>
+                <item id="e578136ec60c4e839e4827aaf577c50c" cid="ENT007" type="erd-entity" name="manager" change-tracking-state="added" creation-date="04/11/2024 14:14:55">
+                  <tagged-values>
+                    <tagged-value id="tve41cf69536544b818a17ee0dea12a069" name="TableName" type="text" multiple="false" hidden="false" value="manager" />
+                    <tagged-value id="tvdb93c2cd4c1a4966b60b81f684e498e5" name="TableSchema" type="text" multiple="false" hidden="false" value="db.beton" />
+                    <tagged-value id="tv90ccc1d203fa447d85a1a5cfc483869c" name="TableReference" type="text" multiple="false" hidden="false" value="db.beton.manager" />
+                  </tagged-values>
+                  <entity description="" />
+                  <attributes>
+                    <attribute uid="aafd1d3f8c3ce4e67962747b1f74448a7107" cid="EA047" name="ID" type="int" type-id="MsSql.int" primary-key="true" nullable="false" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv2b0a63fb38744f19baf5e9a24c571e74" name="ColumnName" type="text" multiple="false" hidden="false" value="ID" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a3248fbb924094f7db1905c1164908fe4107" cid="EA048" name="FIOManager" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvee89f1a9677c46e08623719520300a2f" name="ColumnName" type="text" multiple="false" hidden="false" value="FIOManager" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a99dbe697eb2146858d60c32ef0e9284e107" cid="EA049" name="Note" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv2febf6fa9654486fbd3b3feeaa13c0a4" name="ColumnName" type="text" multiple="false" hidden="false" value="Note" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a49c98c336bf54e5292b2be420b7e93d0107" cid="EA050" name="Login" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tvfc8ce5fb4c6a462b93a3e3a4a593aca1" name="ColumnName" type="text" multiple="false" hidden="false" value="Login" />
+                      </tagged-values>
+                    </attribute>
+                    <attribute uid="a7012af6c4b534fd388cb8a4c3f2f9c74107" cid="EA051" name="Password" type="varchar" type-id="MsSql.varchar" type-size="255" nullable="true" creation-date="04/11/2024 14:14:55">
+                      <tagged-values>
+                        <tagged-value id="tv6faedbeda04744e1a6d8f8776ade0625" name="ColumnName" type="text" multiple="false" hidden="false" value="Password" />
+                      </tagged-values>
+                    </attribute>
+                  </attributes>
+                </item>
+              </abstract-items>
+              <sub-models />
+            </model>
+          </sub-models>
+        </model>
+      </sub-models>
+    </model>
+  </models>
+</sim-project>

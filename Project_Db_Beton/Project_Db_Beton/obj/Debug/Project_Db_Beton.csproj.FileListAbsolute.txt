@@ -1,0 +1,15 @@
+D:\Project c++\Project_Db_Beton\Project_Db_Beton\bin\Debug\Project_Db_Beton.exe.config
+D:\Project c++\Project_Db_Beton\Project_Db_Beton\obj\Debug\Project_Db_Beton.csprojResolveAssemblyReference.cache
+D:\Project c++\Project_Db_Beton\Project_Db_Beton\obj\Debug\Project_Db_Beton.Form1.resources
+D:\Project c++\Project_Db_Beton\Project_Db_Beton\obj\Debug\Project_Db_Beton.Properties.Resources.resources
+D:\Project c++\Project_Db_Beton\Project_Db_Beton\obj\Debug\Project_Db_Beton.csproj.GenerateResource.Cache
+D:\Project c++\Project_Db_Beton\Project_Db_Beton\bin\Debug\Project_Db_Beton.exe
+D:\Project c++\Project_Db_Beton\Project_Db_Beton\bin\Debug\Project_Db_Beton.pdb
+D:\Project c++\Project_Db_Beton\Project_Db_Beton\obj\Debug\Project_Db_Beton.exe
+D:\Project c++\Project_Db_Beton\Project_Db_Beton\obj\Debug\Project_Db_Beton.pdb
+D:\Project c++\Project_Db_Beton\Project_Db_Beton\obj\Debug\Project_Db_Beton.ReportOutBeton.resources
+D:\Project c++\Project_Db_Beton\Project_Db_Beton\obj\Debug\RdlCompile.cache
+D:\Project c++\Project_Db_Beton\Project_Db_Beton\obj\Debug\RdlCompile.compiled
+D:\Project c++\Project_Db_Beton\Project_Db_Beton\obj\Debug\Project_Db_Beton.ReportAutoMilage.resources
+D:\Project c++\Project_Db_Beton\Project_Db_Beton\obj\Debug\Project_Db_Beton.ReportFAQ.resources
+D:\Project c++\Project_Db_Beton\Project_Db_Beton\obj\Debug\Project_Db_Beton.FormRegistration.resources
