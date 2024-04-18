@@ -1,0 +1,3 @@
+https://cloud.mail.ru/public/d21n/keNYF7foC
+Server:localhost Port:3306
+Developer 12345
